@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ContextExplain PRO — Privacy Policy</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', -apple-system, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.8;
+  font-size: 15px;
+}
+.header {
+  background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header h1 { font-size: 22px; font-weight: 700; }
+.header .sub { font-size: 13px; opacity: 0.75; margin-top: 2px; }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 48px 32px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #60a5fa;
+  margin: 36px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #1e293b;
+}
+h2:first-of-type { margin-top: 0; }
+p { color: #94a3b8; margin-bottom: 14px; }
+ul { color: #94a3b8; padding-left: 20px; margin-bottom: 14px; }
+ul li { margin-bottom: 8px; }
+strong { color: #e2e8f0; }
+.highlight {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  color: #94a3b8;
+}
+.highlight strong { color: #60a5fa; }
+.last-updated {
+  font-size: 12px;
+  color: #475569;
+  margin-bottom: 32px;
+}
+.contact-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-top: 20px;
+}
+.contact-card p { margin-bottom: 6px; }
+a { color: #60a5fa; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.footer {
+  text-align: center;
+  padding: 32px;
+  color: #334155;
+  font-size: 12px;
+  border-top: 1px solid #1e293b;
+  margin-top: 48px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <span style="font-size:28px;">🔍</span>
+  <div>
+    <h1>ContextExplain PRO — Privacy Policy</h1>
+    <div class="sub">Transparent about how we handle your data</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <p class="last-updated">Last updated: April 11, 2026</p>
+
+  <div class="highlight">
+    <strong>Summary:</strong> ContextExplain PRO sends selected text and page context to our server to generate AI explanations. We never sell your data. We never store your browsing history. You can delete your account and all data at any time.
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>ContextExplain PRO ("we", "our", "us") is a Chrome extension that provides AI-powered explanations of text selected on web pages. Our backend server is hosted on Railway and our authentication and database is managed by Supabase.</p>
+
+  <h2>2. What Data We Collect</h2>
+  <p>We collect the following data when you use ContextExplain PRO:</p>
+  <ul>
+    <li><strong>Account information:</strong> Your email address when you sign up or sign in with Google.</li>
+    <li><strong>Selected text:</strong> The text you highlight on a webpage to request an explanation. This is sent to our server to generate the AI response.</li>
+    <li><strong>Page context:</strong> The title, meta description, and surrounding paragraph text of the page you are reading. This helps us provide more accurate, contextually relevant explanations.</li>
+    <li><strong>Usage data:</strong> How many explanations you have requested today (to enforce the free tier limit of 25 per day).</li>
+    <li><strong>Saved words:</strong> Words and explanations you choose to save to your Notebook.</li>
+    <li><strong>Feature usage events:</strong> Anonymous records of which features you use (explain, translate, summarize, draw) to help us improve the product.</li>
+  </ul>
+
+  <h2>3. What Data We Do NOT Collect</h2>
+  <ul>
+    <li>We do <strong>not</strong> record, store, or transmit your full browsing history.</li>
+    <li>We do <strong>not</strong> collect financial or payment information directly — payments are handled by Stripe.</li>
+    <li>We do <strong>not</strong> sell your data to any third party.</li>
+    <li>We do <strong>not</strong> use your data for advertising.</li>
+    <li>We do <strong>not</strong> store the full content of web pages you visit.</li>
+  </ul>
+
+  <h2>4. How We Use Your Data</h2>
+  <ul>
+    <li><strong>Selected text and page context</strong> are sent to our server and then to OpenAI's GPT-4o mini API to generate your explanation. They are not stored after the explanation is generated.</li>
+    <li><strong>Account information</strong> is used to authenticate you and manage your subscription.</li>
+    <li><strong>Usage counts</strong> are stored per user per day to enforce the 25 free explanations per day limit.</li>
+    <li><strong>Saved words</strong> are stored in our database so you can access your Notebook across devices.</li>
+    <li><strong>Feature events</strong> are stored anonymously to help us understand which features are most useful.</li>
+  </ul>
+
+  <h2>5. Third-Party Services</h2>
+  <p>ContextExplain PRO uses the following third-party services:</p>
+  <ul>
+    <li><strong>OpenAI</strong> — Powers the AI explanations. Selected text is sent to OpenAI's API. See <a href="https://openai.com/privacy" target="_blank">OpenAI's Privacy Policy</a>.</li>
+    <li><strong>Supabase</strong> — Manages user authentication and database storage. See <a href="https://supabase.com/privacy" target="_blank">Supabase's Privacy Policy</a>.</li>
+    <li><strong>Stripe</strong> — Processes payments for PRO subscriptions. We never see or store your card details. See <a href="https://stripe.com/privacy" target="_blank">Stripe's Privacy Policy</a>.</li>
+    <li><strong>Railway</strong> — Hosts our backend server. See <a href="https://railway.app/legal/privacy" target="_blank">Railway's Privacy Policy</a>.</li>
+    <li><strong>Google OAuth</strong> — Used for "Sign in with Google". See <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>6. Data Storage and Security</h2>
+  <ul>
+    <li>Your data is stored in Supabase's database with Row Level Security enabled — only you can access your own data.</li>
+    <li>All communication between the extension and our server uses HTTPS encryption.</li>
+    <li>We use Supabase JWT tokens for authentication — your password is never stored on our server.</li>
+    <li>Your local preferences (panel color, language preference) are stored in <code>chrome.storage.local</code> on your device only.</li>
+  </ul>
+
+  <h2>7. Data Retention</h2>
+  <ul>
+    <li><strong>Usage counts</strong> are retained for 90 days then automatically deleted.</li>
+    <li><strong>Saved words</strong> are retained until you delete them or delete your account.</li>
+    <li><strong>Feature events</strong> are retained for 6 months for analytics purposes.</li>
+    <li><strong>Account data</strong> is retained until you delete your account.</li>
+  </ul>
+
+  <h2>8. Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access</strong> your data — all your saved words are visible in the Notebook tab.</li>
+    <li><strong>Delete</strong> your saved words — use the Clear All button in the Notebook tab.</li>
+    <li><strong>Delete your account</strong> — go to the Account tab in the extension and click "Delete Account". This permanently deletes all your data from our database.</li>
+    <li><strong>Export</strong> your saved words — use the Export button in the Notebook tab.</li>
+    <li><strong>Opt out</strong> — simply uninstall the extension to stop all data collection.</li>
+  </ul>
+
+  <h2>9. Children's Privacy</h2>
+  <p>ContextExplain PRO is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. We will notify users of significant changes by updating the "Last updated" date at the top of this page. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy or want to request deletion of your data, please contact us:</p>
+  <div class="contact-card">
+    <p><strong>ContextExplain PRO</strong></p>
+    <p>Email: <a href="mailto:">namanothing0@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/nama-ctrl/contextexplain-server" target="_blank">github.com/nama-ctrl/contextexplain-server</a></p>
+  </div>
+
+</div>
+
+<div class="footer">
+  © 2026 ContextExplain PRO · <a href="/">Home</a>
+</div>
+
+</body>
+</html>
